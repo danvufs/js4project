@@ -42,12 +42,14 @@
   align-items: center;
   flex-direction: column;
   transform: translateX(-50%);
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.6);
   animation: slide-up 1s ease 0.5s;
   animation-fill-mode: forwards;
-  //   visibility: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
   h2 {
     font-size: 4.5rem;
+    margin-bottom: 1rem;
   }
 }
 
@@ -81,6 +83,7 @@
 .current .content {
   opacity: 1;
 }
+
 .arrow {
   border: 2px solid orangered;
   border-radius: 50%;
@@ -93,19 +96,20 @@
   top: 50%;
   transform: translateY(-50%);
   z-index: 2;
+  transition: all 0.3s ease;
 }
 
 .arrow:hover {
   background: #fff;
+  color: orangered;
 }
 
 .next {
   right: 1.5rem;
-  color: orangered;
 }
+
 .prev {
   left: 1.5rem;
-  color: orangered;
 }
 
 hr {
