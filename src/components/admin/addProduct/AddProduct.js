@@ -11,18 +11,12 @@ import Loader from "../../loader/Loader";
 import styles from "./AddProduct.module.scss";
 
 const categories = [
-  { id: 1, name: "Laptop" },
-  { id: 2, name: "Electronics" },
-  { id: 3, name: "Fashion" },
-  { id: 4, name: "Phone" },
-  { id: 5, name: "Movies & Television" },
-  { id: 6, name: "Home & Kitchen" },
-  { id: 7, name: "Automotive" },
-  { id: 8, name: "Software" },
-  { id: 9, name: "Video Games" },
-  { id: 10, name: "Sports & Outdoor" },
-  { id: 11, name: "Toys & Games" },
-  { id: 12, name: "Industrial & Scientific" },
+  { id: 1, name: "Shoes for men" },
+  { id: 2, name: "Shoes for kids" },
+  { id: 3, name: "Shoes for women" },
+  { id: 4, name: "Shoes for trekking" },
+  { id: 5, name: "Shoes for golf" },
+,
 ];
 const initialState = {
   name: "",

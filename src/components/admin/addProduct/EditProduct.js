@@ -16,10 +16,11 @@ import styles from "./AddProduct.module.scss";
 import spinnerImg from "../../../assets/spinner.jpg";
 
 const categories = [
-  { id: 1, name: "Laptop" },
-  { id: 2, name: "Electronics" },
-  { id: 3, name: "Fashion" },
-  { id: 4, name: "Phone" },
+  { id: 1, name: "Shoes for men" },
+  { id: 2, name: "Shoes for kids" },
+  { id: 3, name: "Shoes for women" },
+  { id: 4, name: "Shoes for trekking" },
+  { id: 5, name: "Shoes for golf" },
 ];
 
 const EditProduct = () => {
