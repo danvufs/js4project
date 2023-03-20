@@ -8,6 +8,7 @@
     top: 50%;
     left: 1rem;
     transform: translateY(-50%);
+    color: #383737;
   }
 
   input[type="text"] {
@@ -21,5 +22,18 @@
     border: 2px solid #383737;
     border-radius: 10px;
     outline: none;
+    transition: all 0.3s ease;
+    background-color: whitesmoke;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  input[type="text"]:hover {
+    border-color: #5c5c5c;
+  }
+
+  input[type="text"]:focus {
+    border-color: #5c5c5c;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
   }
 }
