@@ -17,13 +17,21 @@ import {
   CALCULATE_TOTAL_QUANTITY,
   selectCartTotalQuantity,
 } from "../../redux/slice/cartSlice";
+import logoImage from "../../assets/dan_logo.png";
 
+// const logo = (
+//   <div className={styles.logo}>
+//     <Link to="/">
+//       <h2>
+//         DAN<span>Shop</span>
+//       </h2>
+//     </Link>
+//   </div>
+// );
 const logo = (
   <div className={styles.logo}>
     <Link to="/">
-      <h2>
-        DAN<span>Shop</span>
-      </h2>
+    <img src={logoImage} alt="DANShop Logo" className={styles.logoImage} />
     </Link>
   </div>
 );
