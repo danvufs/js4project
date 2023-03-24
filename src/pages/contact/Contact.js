@@ -6,6 +6,25 @@ import { GoLocation } from "react-icons/go";
 
 import emailjs from "@emailjs/browser";
 import { toast } from "react-toastify";
+import { Link } from "react-router-dom";
+//import logoImage from "../../assets/dan_logo_big.png";
+
+// const logo = (
+//   <div className={styles.logo}>
+//     <Link to="/">
+//       <h2>
+//         DAN<span>Shop</span>
+//       </h2>
+//     </Link>
+//   </div>
+// );
+const logo = (
+  <div className={styles.logo}>
+    <Link to="/">
+    <img src={'https://firebasestorage.googleapis.com/v0/b/javascript4-a0773.appspot.com/o/images%2Fdan_logo_big.png?alt=media&token=7587cc49-191c-48f4-8420-6454f43b5799'} alt="DANShop Logo" className={styles.logoImage} />
+    </Link>
+  </div>
+);
 
 const Contact = () => {
   const form = useRef();
@@ -64,6 +83,7 @@ const Contact = () => {
             </Card>
           </form>
           <div className={styles.details}>
+          <div className={styles.logo}>{logo}</div>
             <Card cardClass={styles.card2}>
               <h3>Our Contact Information</h3>
               <p>Fill the form or contact us via other channels listed below</p>

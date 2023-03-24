@@ -143,6 +143,18 @@ header {
   background-color: $white;
 }
 
+/* yourStyles.module.css */
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoImage {
+  width: 100%;
+  max-width: 200px; /* Adjust this value to set the maximum width of the image */
+  height: auto;
+}
 
 // .fixed {
 //   width: 100%;
