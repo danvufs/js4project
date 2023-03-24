@@ -96,6 +96,11 @@
   width: 100%;
   max-width: 450px; /* Adjust this value to set the maximum width of the image */
   height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+//when hover on logo, the logo will be bigger
+.logo:hover .logoImage {
+  transform: scale(1.1);
 }
 
 
